@@ -581,10 +581,13 @@ h6 {
   margin: 0 0 3rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.animation{
+  min-height: 10rem !important;
+  height: 10rem !important;
+}
 #studio, #capital{
   background: #000;
-  min-height: 20rem;
+  min-height: 10rem;
     border-radius: 6px;
     color: #fff;
     padding: 2rem;
@@ -689,17 +692,30 @@ h6 {
 
 /* Founded Section */
 .founded-h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  background-color: #c5c5c5;
+  color: rgba(0, 0, 0, 0.692);
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.founded-h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 
 .founded-p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .founded-img-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* margin-top: 7rem; */
 }
 
 .inner-div {
