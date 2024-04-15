@@ -313,6 +313,25 @@ h6 {
     padding-top: 62px;
   }
 }
+.story-light{
+  font-weight: 100;
+}
+.story h1{
+  color: #000;
+  font-size: 5rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  line-height: 4rem;
+}
+.story span{
+   font-size: 1rem;
+   font-weight: 100;
+}
+h6{
+  font-size: 2rem;
+  font-weight: 100;
+}
 
 #hero h1 {
   margin: 0;
@@ -632,7 +651,10 @@ h6 {
 .intro-div {
   margin-bottom: 50px;
 }
-
+.about-intro-div{
+  margin-bottom: 50px;
+  min-height: 80px;
+}
 .s-blue {
   color: #0249D9;
 }
@@ -753,11 +775,12 @@ h6 {
 .btn-see-all-com {
   background-color: #0249D9;
   font-size: 1.2rem;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 25px;
   border: none;
   color: #eee;
   margin-bottom: 16px;
+  width: fit-content;
 }
 
 .lim {
@@ -829,4 +852,16 @@ h6 {
 
 #create {
   margin: 80px auto;
+}
+.slider img{
+  width: 100%;
+}
+.careers{
+  background: #000;
+  border-radius: 10px;
+}
+.careers img{
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
 }

@@ -3,18 +3,19 @@
     "use strict";
   
     let stdEl  = document.getElementById("studio");
-    stdEl.addEventListener('mouseenter', (e)=>{
+    if(stdEl)stdEl.addEventListener('mouseenter', (e)=>{
         console.log("hover")
         let lottiePlayer = document.querySelector("#studio lottie-player")
         lottiePlayer.play()
     })
-    stdEl.addEventListener('mouseleave', (e)=>{
+    if(stdEl) stdEl.addEventListener('mouseleave', (e)=>{
         let lottiePlayer = document.querySelector("#studio lottie-player")
         lottiePlayer.stop()
     })
 
 
     let capitalEl  = document.getElementById("capital");
+    if(capitalEl){
     capitalEl.addEventListener('mouseenter', (e)=>{
         console.log("hover")
         let lottiePlayer = document.querySelector("#capital lottie-player")
@@ -24,7 +25,7 @@
         let lottiePlayer = document.querySelector("#capital lottie-player")
         lottiePlayer.stop()
     })
-
+  }
 
 
     
