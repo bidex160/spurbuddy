@@ -865,3 +865,44 @@ h6{
   height: 200px;
   border-radius: 15px;
 }
+
+
+/* Team Section */
+.section-team {
+  padding: 8.25rem 1.25rem;
+  padding-bottom: 0rem;
+  position: relative;
+}
+
+.header-p-align {
+  line-height: 30px;
+}
+
+.card-pic {
+    aspect-ratio: 32 / 37;
+    overflow: hidden;
+}
+
+.card-pic img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.paragraph-lg {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+.u-text-lightblack {
+  color: #363333;
+}
+
+.u-mt-2 {
+  margin-top: 20px;
+}
+
+.d-mb-5 {
+  margin-bottom: 50px;
+}
