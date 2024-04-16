@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Neue+Montreal:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -24,6 +24,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -31,14 +33,15 @@
 </head>
 
 <body>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Spurbuddy</a></h1>
+      <!-- <h1 class="logo me-auto"><a href="index.html">Spurbuddy</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -69,13 +72,33 @@
     <section id="about" class="about">
          <div class="container-fluid"> 
   
-          <div data-aos="fade-left" class="row slider">
-            <div class="col col-lg-3 col-md-4 col-xs-12">
-               <img src="assets/img/user.webp" />
-              </div>
-              <div class="col col-lg-3 col-md-4 col-xs-12">
+          <div data-aos="fade-left" class="slider">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "groupCells": true, "wrapAround": false , "autoPlay": true, "cellAlign": "left"}'
+            >
+              <div class="gallery-cell" style="height: 400px;">
                 <img src="assets/img/user.webp" />
-               </div>
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+              <div class="gallery-cell">
+                <img src="assets/img/user.webp" />
+              </div>
+
+            </div>
              
               
             </div>
