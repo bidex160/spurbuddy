@@ -633,7 +633,7 @@ h6{
 }
 
 .heading-xl {
-  font-size: 4.8rem;
+  font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.08;
 }
@@ -789,6 +789,9 @@ h6{
   color: #eee;
   margin-bottom: 16px;
   width: fit-content;
+}
+.btn-see-all-com a {
+  color: #fff;
 }
 
 .lim {
@@ -950,7 +953,7 @@ h6{
 }
 
 .card-pic{
-  height: 200px;
+  min-height: 300px;
   width: 100%;
 }
 
