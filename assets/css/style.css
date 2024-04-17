@@ -693,6 +693,7 @@ h6{
     max-width: 100%;
     margin: 0px;
   }
+
   
 }
 
@@ -709,6 +710,10 @@ h6{
 
   .intro-p {
     font-size: 1rem;
+  }
+
+  .img-in {
+    height: 70px !important;
   }
 }
 
@@ -744,6 +749,9 @@ h6{
   width: 48%;
 }
 
+.img-in {
+  height: 140px;
+}
 
 .inner-div div img {
   width: 100%;
@@ -785,6 +793,7 @@ h6{
 
 .lim {
   padding-left: 22px;
+  padding-right: 0;
 }
 
 .see-all {
@@ -795,6 +804,10 @@ h6{
 
 #founded {
   margin: 80px auto;
+}
+
+.reverse {
+  padding-right: 0px;
 }
 
 @media screen and (max-width: 479px) {
@@ -809,6 +822,7 @@ h6{
   .reverse {
     display: flex;
     flex-direction: column-reverse;
+    padding-right: 0px;
   }
 
   .create-div {
@@ -928,4 +942,45 @@ h6{
 }
 .gallery-cell.is-selected {
   background: transparent;
+}
+
+
+.card-item {
+  height: 400px;
+}
+
+.card-pic{
+  height: 200px;
+  width: 100%;
+}
+
+.u-mt-5 {
+  margin-top: 50px;
+}
+
+.move-left {
+  background-color: gray;
+  margin-right: 10px;
+}
+
+.move-right {
+  background-color: #000;
+}
+
+.btn-page {
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  padding: .5rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
