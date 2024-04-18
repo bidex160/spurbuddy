@@ -987,3 +987,19 @@ h6{
   flex-direction: row;
   justify-content: space-between;
 }
+
+.web{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+@media(max-width:767px){
+ .web{
+  display: none;
+ }
+ .mobile{
+  display: block;
+  width: 100%;
+ }
+}
