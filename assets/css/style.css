@@ -729,13 +729,14 @@ h6{
 }
 
 .founded-h3 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-top: 3rem;
 }
 
 .founded-p {
   font-size: 1.2rem;
   margin-top: 1rem;
+  font-weight: bolder;
 }
 
 .founded-img-div {
@@ -994,6 +995,20 @@ h6{
 .mobile{
   display: none;
 }
+.carousel {
+  background: #fff;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 5px;
+  height: 300px !important;
+}
+
+
 @media(max-width:767px){
  .web{
   display: none;
